@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: ai_context_item
+  uuid: 101f2b28-7328-484b-9643-f7166d1b0af5
+  bundle: default
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  label:
+    -
+      value: 'Varbase AI Editorial Rules'
+  description:
+    -
+      value: 'Editorial workflow rules and content governance guidelines for AI-assisted content creation in Varbase.'
+      format: plain_text
+  purpose:
+    -
+      value: 'Guide AI writing assistants to produce content that matches Varbase editorial standards, content types, and workflow requirements. Used by AI CKEditor assistant, AI Chatbot, and AI Automators.'
+      format: plain_text
+  content:
+    -
+      value: |-
+        ## Varbase Editorial AI Rules
+
+        ### Content Types & Entities Available (Varbase 11)
+        - **Blog post** (`blog`): News and updates, uses `Blog categories` and `Tags` taxonomies
+        - **Utility page** (`page`): Static informational pages — about, contact, privacy, terms
+        - **Canvas page** (`canvas_page` entity): Visual page builder for marketing/landing pages, built from Varbase Components
+        - **Media** (`media` entity): Image, Video, Document, Audio, SVG image, Remote video — reusable media assets
+        - **Webform submissions** (`webform_submission` entity): Contact forms, business contact, newsletter subscribe, and template-based forms (do not generate form fields via AI)
+        - **Taxonomy** (`taxonomy_term` entity): `Blog categories`, `Tags`
+
+        ### Writing Standards
+        - Max paragraph length: 3-4 sentences
+        - Use H2 for main sections, H3 for subsections (never skip heading levels)
+        - All images MUST have descriptive alt text (handled by AI Image Alt Text module)
+        - Internal links use relative paths, external links open in new tab
+
+        ### Content Moderation Workflow
+        1. Draft → Needs Review → Published
+        2. AI-generated content ALWAYS starts as "Draft"
+        3. Never publish AI content without human review
+        4. Flag uncertainty with [AI-REVIEW-NEEDED] tag
+
+        ### SEO Rules
+        - Meta description: 150-160 characters
+        - Page title: 50-60 characters
+        - Focus keyword must appear in first paragraph
+        - Use Varbase SEO module fields (metatag fields)
+
+        ### Forbidden Content
+        - No pricing claims without [VERIFY] flag
+        - No competitor comparisons
+        - No legal/medical/financial advice
+        - No content implying official Drupal Association endorsement
+      format: plain_text

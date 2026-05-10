@@ -1,0 +1,35 @@
+{
+  "name": "drupal/varbase_ai_context",
+  "description": "Pre-populates starter context items (Brand & Identity Guidelines, AI Editorial Rules, AI Safety Guardrails) for every Varbase site via the Context Control Center (CCC) module.",
+  "keywords": [
+    "recipe",
+    "Varbase recipes",
+    "varbase recipe",
+    "Drupal recipes",
+    "drupal recipe",
+    "AI",
+    "AI Context",
+    "CCC",
+    "Context Control Center",
+    "Drupal AI",
+    "Varbase AI"
+  ],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.drupal.org/project/varbase_ai_context",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/varbase_ai_context"
+  },
+  "require": {
+    "drupal/core": "~11.3.0",
+    "drupal/ai_context": "~1.0"
+  },
+  "version": "1.0.x-dev"
+}

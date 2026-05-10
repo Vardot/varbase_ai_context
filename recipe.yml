@@ -1,0 +1,9 @@
+name: 'Varbase AI Context'
+description: 'Installs the Context Control Center (CCC) module and pre-populates starter context items for every Varbase site: Varbase Brand & Identity Guidelines, Varbase AI Editorial Rules, and AI Safety Guardrails. Gives every Varbase AI agent (Page Builder, Template Builder, Title Generation, Orchestrator, Field Agent, Taxonomy Agent, etc.) site-specific brand knowledge, editorial standards, and safety limits out of the box. After install, set scope on each item via Admin → AI → Context to control which agents see them (Global, Use Cases such as Writing Words and Working In Canvas, Languages, Tags, Site Sections, Target Entities).'
+type: 'Varbase AI'
+install:
+  - ai_context
+config:
+  strict: false
+  import:
+    ai_context: '*'

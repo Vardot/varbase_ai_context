@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: ai_context_item
+  uuid: 81c4f2f3-bd17-4e0d-a02b-0ba0904d542b
+  bundle: default
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  label:
+    -
+      value: 'Varbase Brand & Identity Guidelines'
+  description:
+    -
+      value: 'Core brand identity, terminology, and positioning guidelines for Varbase 11 — the enterprise Drupal distribution built on Drupal 11.'
+      format: plain_text
+  purpose:
+    -
+      value: 'Ensure all AI-generated content, page copy, and editorial assistance uses correct Varbase terminology, tone of voice, and brand positioning. Prevents AI from using generic Drupal language when Varbase-specific terms are more accurate.'
+      format: plain_text
+  content:
+    -
+      value: |-
+        ## Varbase 11 — Brand Identity Context
+
+        **Product Name**: Varbase (not "varbase" or "VARBASE")
+        **Version**: Varbase 11 built on Drupal 11
+        **Vendor**: Vardot — enterprise open-source Drupal specialists
+
+        ### Tone & Voice
+        - Professional, enterprise-grade, developer-friendly
+        - Use "powerful", "flexible", "enterprise-ready" — NOT "simple" or "easy"
+        - Target audience: CTOs, lead developers, digital agencies
+
+        ### Key Terminology
+        - "Varbase Distribution" (not "Varbase theme" or "Varbase plugin")
+        - "Vartheme BS5" = the default Bootstrap 5 theme
+        - "Varbase Components" = reusable layout building blocks
+        - "Varbase Media" = media handling framework
+        - "Varbase Editor" = the CKEditor 5 editorial experience
+        - "Vardot" = the company behind Varbase
+
+        ### Content Rules
+        - Always capitalize "Varbase", "Drupal", "Bootstrap", "CKEditor"
+        - Do NOT say "out of the box" — say "included by default"
+        - Do NOT say "easy to use" — say "intuitive editorial experience"
+        - Reference Varbase documentation at: https://docs.varbase.vardot.com
+
+        ### Site Context
+        - Built on Varbase 11 (Drupal 11)
+        - AI features powered by the Drupal AI module
+      format: plain_text
