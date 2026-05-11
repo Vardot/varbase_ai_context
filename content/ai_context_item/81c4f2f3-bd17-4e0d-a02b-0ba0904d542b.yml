@@ -24,33 +24,7 @@ default:
       format: plain_text
   content:
     -
-      value: |-
-        ## Varbase 11 — Brand Identity Context
-
-        **Product Name**: Varbase (not "varbase" or "VARBASE")
-        **Version**: Varbase 11 built on Drupal 11
-        **Vendor**: Vardot — enterprise open-source Drupal specialists
-
-        ### Tone & Voice
-        - Professional, enterprise-grade, developer-friendly
-        - Use "powerful", "flexible", "enterprise-ready" — NOT "simple" or "easy"
-        - Target audience: CTOs, lead developers, digital agencies
-
-        ### Key Terminology
-        - "Varbase Distribution" (not "Varbase theme" or "Varbase plugin")
-        - "Vartheme BS5" = the default Bootstrap 5 theme
-        - "Varbase Components" = reusable layout building blocks
-        - "Varbase Media" = media handling framework
-        - "Varbase Editor" = the CKEditor 5 editorial experience
-        - "Vardot" = the company behind Varbase
-
-        ### Content Rules
-        - Always capitalize "Varbase", "Drupal", "Bootstrap", "CKEditor"
-        - Do NOT say "out of the box" — say "included by default"
-        - Do NOT say "easy to use" — say "intuitive editorial experience"
-        - Reference Varbase documentation at: https://docs.varbase.vardot.com
-
-        ### Site Context
-        - Built on Varbase 11 (Drupal 11)
-        - AI features powered by the Drupal AI module
+      value: "## Varbase 11 — Brand Identity Context\r\n\r\n**Product Name**: Varbase (not \"varbase\" or \"VARBASE\")\r\n**Version**: Varbase 11 built on Drupal 11\r\n**Vendor**: Vardot — enterprise open-source Drupal specialists\r\n\r\n### Tone & Voice\r\n\r\n* Professional, enterprise-grade, developer-friendly\r\n* Use \"powerful\", \"flexible\", \"enterprise-ready\" — NOT \"simple\" or \"easy\"\r\n* Target audience: CTOs, lead developers, digital agencies\r\n\r\n### Key Terminology\r\n\r\n* \"Varbase Distribution\" (not \"Varbase theme\" or \"Varbase plugin\")\r\n* \"Vartheme BS5\" \\= the default Bootstrap 5 theme\r\n* \"Varbase Components\" \\= reusable layout building blocks\r\n* \"Varbase Media\" \\= media handling framework\r\n* \"Varbase Editor\" \\= the CKEditor 5 editorial experience\r\n* \"Vardot\" \\= the company behind Varbase\r\n\r\n### Content Rules\r\n\r\n* Always capitalize \"Varbase\", \"Drupal\", \"Bootstrap\", \"CKEditor\"\r\n* Do NOT say \"out of the box\" — say \"included by default\"\r\n* Do NOT say \"easy to use\" — say \"intuitive editorial experience\"\r\n* Reference Varbase documentation at: [https://docs.varbase.vardot.com](https://docs.varbase.vardot.com)\r\n\r\n### Site Context\r\n\r\n* Built on Varbase 11 (Drupal 11)\r\n* AI features powered by the Drupal AI module"
       format: plain_text
+  scope:
+    - {  }
