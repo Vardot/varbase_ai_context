@@ -7,3 +7,7 @@ config:
   strict: false
   import:
     ai_context: '*'
+  actions:                                                                                                                                                                                                       
+    ai_context.scope_settings.global:                                                                                                                                                                            
+      setAiContextItemsDefaultScope:                                                                                                                                                                             
+        - global  
