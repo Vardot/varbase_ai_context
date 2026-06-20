@@ -1,3 +1,5 @@
+[![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
+
 # Varbase AI Context
 
 A recipe to install the Context Control Center (CCC) module and pre-populate starter context items for every Varbase site.
