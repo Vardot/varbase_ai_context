@@ -31,5 +31,5 @@
     "drupal/core": "~11.3.0",
     "drupal/ai_context": "~1.0"
   },
-  "version": "1.0.0-alpha3"
+  "version": "1.0.x-dev"
 }
