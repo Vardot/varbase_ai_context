@@ -2,7 +2,7 @@
 
 # Varbase AI Context
 [![pipeline status](https://git.drupalcode.org/project/varbase_ai_context/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_ai_context/-/pipelines)
-[![Varbase AI Context](https://img.shields.io/badge/Varbase%20AI%20Context-1.0.0--beta1-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_ai_context/-/pipelines?ref=1.0.0-beta1)
+[![Varbase AI Context](https://img.shields.io/badge/Varbase%20AI%20Context-1.0.0--beta2-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_ai_context/-/pipelines?ref=1.0.0-beta2)
 [![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A recipe to install the Context Control Center (CCC) module and pre-populate starter context items for every Varbase site.
