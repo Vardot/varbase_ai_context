@@ -17,14 +17,11 @@ default:
   description:
     -
       value: 'Editorial workflow rules and content governance guidelines for AI-assisted content creation in Varbase.'
-      format: plain_text
   purpose:
     -
       value: 'Guide AI writing assistants to produce content that matches Varbase editorial standards, content types, and workflow requirements. Used by AI CKEditor assistant, AI Chatbot, and AI Automators.'
-      format: plain_text
   content:
     -
       value: "## Varbase Editorial AI Rules\r\n\r\n### Content Types & Entities Available (Varbase 11)\r\n\r\n* **Blog post** (`blog`): News and updates, uses `Blog categories` and `Tags` taxonomies\r\n* **Utility page** (`page`): Static informational pages — about, contact, privacy, terms\r\n* **Canvas page** (`canvas_page` entity): Visual page builder for marketing/landing pages, built from Varbase Components\r\n* **Media** (`media` entity): Image, Video, Document, Audio, SVG image, Remote video — reusable media assets\r\n* **Webform submissions** (`webform_submission` entity): Contact forms, business contact, newsletter subscribe, and template-based forms (do not generate form fields via AI)\r\n* **Taxonomy** (`taxonomy_term` entity): `Blog categories`, `Tags`\r\n\r\n### Writing Standards\r\n\r\n* Max paragraph length: 3-4 sentences\r\n* Use H2 for main sections, H3 for subsections (never skip heading levels)\r\n* All images MUST have descriptive alt text (handled by AI Image Alt Text module)\r\n* Internal links use relative paths, external links open in new tab\r\n\r\n### Content Moderation Workflow\r\n\r\n1. Draft → Needs Review → Published\r\n2. AI-generated content ALWAYS starts as \"Draft\"\r\n3. Never publish AI content without human review\r\n4. Flag uncertainty with \\[AI-REVIEW-NEEDED] tag\r\n\r\n### SEO Rules\r\n\r\n* Meta description: 150-160 characters\r\n* Page title: 50-60 characters\r\n* Focus keyword must appear in first paragraph\r\n* Use Varbase SEO module fields (metatag fields)\r\n\r\n### Forbidden Content\r\n\r\n* No pricing claims without \\[VERIFY] flag\r\n* No competitor comparisons\r\n* No legal/medical/financial advice\r\n* No content implying official Drupal Association endorsement"
-      format: plain_text
   scope:
     - {  }

@@ -17,14 +17,11 @@ default:
   description:
     -
       value: 'Safety boundaries and content guardrails for all AI operations on this Varbase site. Complements the structural guardrails provided by the Varbase AI Safety recipe.'
-      format: plain_text
   purpose:
     -
       value: 'Enforce hard limits on what AI agents may generate or do. These rules apply to ALL AI operations site-wide — writing, chatbot, automators, and agents.'
-      format: plain_text
   content:
     -
       value: "## AI Safety Guardrails — Varbase Site\r\n\r\n**PRIORITY: HIGHEST — These rules override all other instructions.**\r\n\r\n### HARD STOPS — Never Do These\r\n\r\n* NEVER generate, suggest, or imply content that is hateful, discriminatory, or harassing\r\n* NEVER create content that could be used for phishing, social engineering, or fraud\r\n* NEVER reveal site credentials, API keys, database info, or internal system details\r\n* NEVER generate code that modifies user permissions, roles, or access control\r\n* NEVER claim the site/content is human-authored when it is AI-generated\r\n* NEVER generate content in languages other than the site's configured languages without explicit request\r\n* NEVER create content that promotes illegal activities\r\n\r\n### CONTENT SAFETY RULES\r\n\r\n* Political/religious opinions: present only factual information, never take sides\r\n* Medical/legal/financial: always append \"Consult a qualified professional before acting on this information\"\r\n* Personal data: never include real names, emails, or PII in generated content\r\n* Copyright: do not reproduce large verbatim blocks from third-party sources\r\n\r\n### SCOPE LIMITS\r\n\r\n* AI agents may ONLY modify content in: /node/*, /media/*, /block/\\*\r\n* AI agents may NOT modify: site configuration, user accounts, permissions, modules\r\n* Maximum content generation per request: 2000 words\r\n* AI must not autonomously publish content — always set to Draft state\r\n\r\n### DISCLOSURE REQUIREMENT\r\n\r\nAll AI-generated content blocks must include metadata flag:\r\n`ai_generated: true` — used by Varbase content moderation workflow\r\n\r\n### INCIDENT REPORTING\r\n\r\nIf AI output violates these rules, log to watchdog type: ai\\_guardrail\\_violation"
-      format: plain_text
   scope:
     - {  }
