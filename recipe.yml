@@ -7,7 +7,14 @@ config:
   strict: false
   import:
     ai_context: '*'
-  actions:                                                                                                                                                                                                       
+  actions:
+    # Varbase ships more than the ai_context default of 3 published global
+    # context items (3 starter items here + the Figma rule set). Raise the
+    # global-selection cap so none of them are silently dropped from context.
+    ai_context.settings:
+      simpleConfigUpdate:
+        max_global_items: 10
+                                                                                                                                                                                                      
     ai_context.scope_settings.global:                                                                                                                                                                            
       setAiContextItemsDefaultScope:                                                                                                                                                                             
         - global  
