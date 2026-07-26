@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-beta3] - 2026-07-26
+### Fixed
+- Raise the AI Context global items cap to 10 so all Varbase starter and Figma context items stay in context selection.
+
 ## [1.0.0-beta2] - 2026-07-19
 ### Fixed
 - Remove stray `format: plain_text` lines from `content/ai_context_item/*.yml` recipe content files, restoring compatibility with `drupal/ai_context` 1.0.0-beta3 (its `ai_context_item` base fields changed from `text_long` to `string_long`, which has no `format` property).
@@ -29,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase AI Context recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta2...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta3...1.0.x
+[1.0.0-beta3]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta2...1.0.0-beta3
 [1.0.0-beta2]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta1...1.0.0-beta2
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-alpha3...1.0.0-beta1
 [1.0.0-alpha3]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-alpha2...1.0.0-alpha3
