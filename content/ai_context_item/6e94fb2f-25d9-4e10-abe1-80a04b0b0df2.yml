@@ -8,6 +8,9 @@ default:
   status:
     -
       value: true
+  moderation_state:
+    -
+      value: published
   uid:
     -
       target_id: 1

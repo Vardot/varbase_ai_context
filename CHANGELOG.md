@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Fixed
+- Create the three starter context items published (`moderation_state: published` in `content/ai_context_item/*.yml`). The AI Context editorial workflow created them as drafts, so no AI feature used them.
+- Grant **Use Published AI Context in AI Features** to the Site Admin, SEO Admin, Content Admin and Content editor roles, so context selection returns published items to editors, not only administrators.
+- Remove Image Alt from the README list of context consumers: AI Image Alt Text 1.0.2 calls the AI provider directly and receives no context items.
 
 ## [1.0.0] - 2026-09-06
 ### Changed

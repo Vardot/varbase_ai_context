@@ -14,11 +14,15 @@ This recipe provides a complete CCC setup including:
 
 ## Included Context Items
 
-This recipe creates the following context items, used by every Varbase AI agent (Page Builder, Template Builder, Title Generation, Orchestrator, Field Agent, Taxonomy Agent, Editor Assistant, Image Alt, Taxonomy Tagging):
+This recipe creates the following context items, used by every Varbase AI agent (Page Builder, Template Builder, Title Generation, Orchestrator, Field Agent, Taxonomy Agent, Editor Assistant, Taxonomy Tagging):
 
 - **Varbase Brand & Identity Guidelines**: Core brand identity, terminology, and positioning rules — product name, version, vendor, tone of voice, key terminology, content rules.
 - **Varbase AI Editorial Rules**: Content types & entities available in Varbase (Blog post, Utility page, Canvas page, Media, Webform submissions, Taxonomy), writing standards, content moderation workflow, SEO rules, forbidden content.
 - **AI Safety Guardrails — Varbase**: Hard stops, content safety rules, scope limits, disclosure requirement, incident reporting.
+
+The items are created published. The Site Admin, SEO Admin, Content Admin and Content editor roles get **Use Published AI Context in AI Features**, so the context reaches AI features for editors, not only administrators.
+
+AI Image Alt Text calls the AI provider directly, so alt text does not receive these items yet.
 
 ## Post-Install Step
 
