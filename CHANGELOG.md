@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.1] - 2026-10-10
+### Changed
+- Update the version badge to `1.0.1` in `README.md`.
+
 ### Fixed
 - Create the three starter context items published (`moderation_state: published` in `content/ai_context_item/*.yml`). The AI Context editorial workflow created them as drafts, so no AI feature used them.
 - Grant **Use Published AI Context in AI Features** to the Site Admin, SEO Admin, Content Admin and Content editor roles, so context selection returns published items to editors, not only administrators.
@@ -47,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase AI Context recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-rc1...1.0.0
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta3...1.0.0-rc1
 [1.0.0-beta3]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.0-beta2...1.0.0-beta3
