@@ -25,5 +25,10 @@ The site needs the webmaster (`webmaster`) and one user per role, named after th
 CI applies Drupal CMS AI before the recipe. It sets up an amazee.ai trial as the default provider, so no key is
 needed. The suite makes no AI calls of its own.
 
+When amazee.ai cannot be reached, `tests/scripts/ai-provider.sh` sets the AI module's Echo test provider
+instead, prints "amazee.ai unavailable: running with the Echo test provider" and exports `AI_PROVIDER=echoai`.
+The suite makes no AI calls of its own, so every scenario still runs. A scenario that needs a real model's reply
+is tagged `@live-ai` and skipped in that mode. `AMAZEE_UNREACHABLE=1` forces it.
+
 The item edit form is left out of the accessibility gate: its CKEditor toolbar buttons have no names, which
 comes from the editor, not this recipe.
