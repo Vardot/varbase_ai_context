@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-11-23
+### Changed
+- Change the default PHP version to PHP 8.5 in the GitLab CI ([#3638916](https://www.drupal.org/i/3638916)).
+- Update the version badge to `1.0.5` in `README.md`.
+
 ## [1.0.4] - 2026-11-13
 ### Changed
 - Update Node.js to `>= 24.0` in `package.json` and the GitLab CI
@@ -75,7 +80,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase AI Context recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.4...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.5...1.0.x
+[1.0.5]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.4...1.0.5
 [1.0.4]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.3...1.0.4
 [1.0.3]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.2...1.0.3
 [1.0.2]: https://git.drupalcode.org/project/varbase_ai_context/-/compare/1.0.1...1.0.2
